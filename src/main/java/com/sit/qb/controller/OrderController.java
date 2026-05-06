@@ -20,7 +20,7 @@ public class OrderController {
 	@PostMapping
 	public Order placeOrder(@RequestBody OrderRequestDto order) {
 		
-		return null;
+		return service.placeOrder(order) ;
 	}
 	
 }
